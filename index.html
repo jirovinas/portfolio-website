@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/edd1311b21.js" crossorigin="anonymous"></script>
+    <title>Eportfolio</title>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img class="logo" src="image/logo.png" alt="" >
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h3>Hi, I'm...</h3>
+            <h1>Jiro Miko <br>a <span>Programmer</span></h1>
+            <p>I'm Jiro Miko S. Viñas, a second-year IT student.<br>Here, I'll be sharing my tech journey with you. <br>From coding, I'll showcase my projects and skills as <br>I dive into the world of information technology.</p>
+        </div>
+    </div>
+</div>
+<!-- -------------------about-------------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col1">
+                <img src="image/img.jpg" alt="">
+            </div>
+            <div class="about-col2">
+                <h1 class="subtitle">About Me</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Sem viverra aliquet eget sit amet tellus cras. Dolor magna eget est lorem ipsum dolor. 
+                    Vivamus arcu felis bibendum ut tristique et. Donec et odio pellentesque diam volutpat commodo sed.
+                </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Python</span><br>Basic Python Programming</li>
+                        <li><span>HTML</span><br>Basic HTML Structure</li>
+                        <li><span>CSS</span><br>Basic CSS Design</li>
+                        <li><span>JAVASCRIPT</span><br>Basic JAVASCRIPT Function</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2022 - 2023</span><br>Basic Python Programming</li>
+                        <li><span>2023 - 2024</span><br>Basic HTML, CSS and JAVASCRIPT</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2010 - 2016</span><br>Kanlurang Mayao Elementary School</li>
+                        <li><span>2016 - 2020</span><br>Lucena City National High School</li>
+                        <li><span>2020 - 2022</span><br>Lucena City National High School</li>
+                        <li><span>2022 - 2024</span><br>Dalubhasaan Ng Lungsod Ng Lucena</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- -------------------portfolio-------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/sports.png">
+                <div class="layer">
+                    <h3>Sports Management System</h3>
+                    <p>Python-based tool for school sports, featuring student athlete profile management using JSON and a Tkinter interface.</p>
+                    <a href="https://github.com/jirovinas/Sports_Management_System"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/calculator.png">
+                <div class="layer">
+                    <h3>CALCULATOR</h3>
+                    <p>A sleek, responsive calculator built with HTML, CSS, and JavaScript.
+                        It performs basic arithmetic operations with a clean, user-friendly interface.</p>
+                    <a href="https://jirovinas.github.io/ipt101-calculator-app/"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/resume.png">
+                <div class="layer">
+                    <h3>RESUME</h3> Programming
+                    <p>An interactive resume website using HTML, CSS. 
+                        It features personal information, work experience, skills, and contact details, designed for optimal viewing on all devices.</p>
+                    <a href="https://jirovinas.github.io/online-resume/"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- -------------------contact-------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> jiromikovinas@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 09917706386</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/jiromiko.vinas"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/jiro_miko?igsh=MXZqdHVmdWd3N2NxYw=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://m.me/jiromiko.vinas"><i class="fa-brands fa-facebook-messenger"></i></a>
+                    <a href="https://www.tiktok.com/@jio_vinas?_t=8nqS0PJppqs&_r=1"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+                <a href="image/RESUME-Viñas.docx" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2023 | All Rights Reserved</p>
+        <p>Developed by<span> Jiro Miko S. Viñas</span></p>
+    </div>
+</div>
+
+
+
+<!-- ------------------------tab--------------- -->
+<script>
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+
+    function opentab(tabname) {
+        for(tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+
+<!-- -------------------menu-------------------- -->
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+
+    }
+</script>
+
+<!-- -----------------contact form--------------- -->
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwMxorvcfY4uypfcuqBYhfy7tmqrGoSQTSxzLVicY09Ts4fGa05QOjMwT9j6KlYIUde/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
